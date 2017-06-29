@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yao.john.showpopupwindow.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="pop demo!" />
+
+        <Button
+            android:id="@+id/btnShowAsDrawDown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show as drawndown(one parameter)" />
+
+        <Button
+            android:id="@+id/btnShowAsDrawDown1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show as drawndown(three parameters)" />
+
+        <Button
+            android:id="@+id/btnShowAt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show At Location" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
